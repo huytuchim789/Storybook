@@ -1,9 +1,10 @@
 import React from 'react';
 import { Form, Formik } from 'formik';
-import { Button } from 'antd';
+import 'antd/dist/antd.css';
+import './text-input.scss';
 import TextInput, { TextInputProps } from '../../component/TextInput';
 
-const componentTextInput = ({...props}: TextInputProps) => {
+const ComponentTextInput = ({...props}: TextInputProps) => {
   return (
       <Formik
        initialValues={{ input: ''}}
@@ -17,11 +18,10 @@ const componentTextInput = ({...props}: TextInputProps) => {
        {({values}) => (
          <Form>
            <TextInput {...props}/>
-           <Button htmlType="submit">submit</Button>
          </Form>
        )}
      </Formik>
   );
 }
 
-export default componentTextInput;
+export default ComponentTextInput;
