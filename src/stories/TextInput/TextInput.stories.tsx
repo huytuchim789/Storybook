@@ -1,8 +1,7 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-
-import TextInput from '../component/common-component/TextInput';
 import componentTextInput from './TextInput';
+import TextInput from '../../component/TextInput';
 
 export default {
     title: 'Example/TextInput',

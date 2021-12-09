@@ -1,7 +1,7 @@
 import React from 'react';
 import { Form, Formik } from 'formik';
 import { Button } from 'antd';
-import TextInput, { TextInputProps } from '../component/common-component/TextInput';
+import TextInput, { TextInputProps } from '../../component/TextInput';
 
 const componentTextInput = ({...props}: TextInputProps) => {
   return (
