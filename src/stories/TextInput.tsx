@@ -1,11 +1,10 @@
 import React from 'react';
 import { Form, Formik } from 'formik';
 import { Button } from 'antd';
-import TextInput from './component/TextInput';
+import TextInput, { TextInputProps } from '../component/common-component/TextInput';
 
-function App() {
+const componentTextInput = ({...props}: TextInputProps) => {
   return (
-    <div className="App">
       <Formik
        initialValues={{ input: ''}}
        onSubmit={(values, actions) => {
@@ -17,13 +16,12 @@ function App() {
      >
        {({values}) => (
          <Form>
-           <TextInput label="TextArea" containerClassName="aaaaa" required  name="textarea" typeInput='textarea' placeholder="something" showCount rows={8} />
+           <TextInput {...props}/>
            <Button htmlType="submit">submit</Button>
          </Form>
        )}
      </Formik>
-    </div>
   );
 }
 
-export default App;
+export default componentTextInput;

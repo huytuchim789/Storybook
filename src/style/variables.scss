@@ -1,0 +1,131 @@
+// size screen responsive
+// Small devices (landscape phones, 576px and up)
+// Extra large devices (large desktops, 1200px and up)
+// Large devices (desktops, 992px and up)
+// Medium devices (tablets, 768px and up)
+$breakpoint_mobile_min: 374px;
+$breakpoint_mobile_max: 575px;
+$breakpoint_tablet_max: 767px;
+$breakpoint_large_table_max: 991px;
+$breakpoint_desktop_max: 1023px;
+$breakpoint_ultra_tablet_max: 1151px;
+$breakpoint_large_desktop_max: 1279px;
+$breakpoint_ultra_desktop_max: 1439px;
+$breakpoint_mega_desktop_max: 1919px;
+
+//Color
+$color_bg_header: #ffffff;
+$color_bg_dark: linear-gradient(135deg, #00001f 0%, #02002b 100%);
+$color_thunderbird: #d93915;
+$color_white: #ffffff;
+$color_primary: #615793;
+$color_primary_title: #110c3b;
+$color_border: #e4e1e3;
+
+$color_red_1: #ff0a6c;
+$color_gray_1: #ede9ff;
+$color_gray_3: #e6e6e6;
+$color_gray_5: #f7f7fb;
+$color_gray_6: #f9f9f9;
+$color_gray_8: #777e90;
+$color_gray_9: #e6e8ec;
+$color_gray_10: #f8f8fb;
+$color_orange_1: #dc6a00;
+$color_link: #5721ce;
+$color_link_2: #7666ff;
+$color_linear_primary: linear-gradient(135deg, #ff0a6c -16.8%, #2d27ff 138.64%);
+$color_linear_primary_reverse: linear-gradient(-135deg, #ff0a6c -16.8%, #2d27ff 138.64%);
+$color_table_text: #4f5566;
+$color_search_form: #8b8ea9;
+$color_antd_hover_select: #f5f5f5;
+$color_input_hover_border: #40a9ff;
+$color_black_1: #23262f;
+$color_chateau_green: #45b26b;
+$color_french_rose: #ef466f;
+$color_store_button: #7666ff;
+
+//NFT Item Status
+$color_status_red_text: #ef466f;
+$color_status_red_border: 2px solid #ef466f;
+$color_status_green_text: #45b26b;
+$color_status_green_border: 2px solid #45b26b;
+$color_status_gray_text: #797979;
+$color_status_gray_border: 2px solid #797979;
+$color_status_blue_text: #3772ff;
+$color_status_blue_border: 2px solid #3772ff;
+$color_status_yellow_text: #dc6a00;
+$color_status_yellow_border: 2px solid #dc6a00;
+
+//FontSize
+$title_section_size: 40px;
+$content_sction_size: 16px;
+$content_sction_small: 14px;
+
+$form_item_height: 52px;
+$form_item_middle_height: 44px;
+$form_item_small_height: 40px;
+$sizebar_width: 236px;
+$sizebar_width_small: 236px;
+$padding_form_item: 20px;
+$padding_form_item_small: 14px;
+
+$box-shadow_store_home_card: 0px 32px 64px -24px rgba(51, 54, 60, 0.15);
+$box-shadow_table: 0px 32px 64px -24px rgba(51, 54, 60, 0.15);
+$box-shadow_store_home_card_2: 0px 64px 64px -48px rgba(31, 47, 70, 0.12);
+
+$theme_setting_sidebar_width: 338px;
+$theme_setting_header_height: 56px;
+$theme_setting_upload_height: 205px;
+$theme_setting_preview_mobile_width: 375px;
+
+// color add value
+$color_chablis: #fff3f2;
+$color_valencia: #d94036;
+$color_white: #ffffff;
+$color_fire_bush: #e59b39;
+$color_charade: #23262f;
+$color_gallery: #ececec;
+$color_gray: #868484;
+$color_bridal_heath: #fff9f2;
+$color_cod_gray: #1a1919;
+$color_tundora: #434040;
+$color_athens_gray: #fcfcfd;
+$color_nobel: #b5b5b5;
+$color_bg_upload: rgba(217, 64, 54, 0.1);
+$color_scorpion: #605f5f;
+$color_alto: #d0d0d0;
+$color_athens_gray_2: #e6e8ec;
+$color_alabastersolid: #fafafa;
+$color_trout: #4f5566;
+$color_dodger_blue: #3772ff;
+$color_celeste: #cdcfc9;
+$color_silver: #bbb;
+$color_fire_bush_2: #e69b39;
+$color_success: #1dbc10;
+$color_alabaster: #fcfcfc;
+$color_raven: #777e91;
+$color_mine_shaft: #383838;
+$color_mine_shaft_2: #323232;
+$color_jungle_green: #32ba7c;
+$color_clear_day: #f2fff9;
+$color_black: #000000;
+$color_trinidad: #e25900;
+$color_bright_turquoise: #00c2ff;
+$color_clear: #00c2ff1a;
+$color_bright: #00c2ff;
+$color_lapalma: #1dbc101a;
+$color_small_scorpion: #605f5f1a;
+$color_royal: #4061d6;
+$color_turbo: #ffe600;
+$color_lily_white: #e6f9ff;
+$color_peppermint: #e8f8e7;
+$color_lucky: #e59b391a;
+$color_black_80: #000000cc;
+$color_valencia_10: #d940361a;
+$color_table_pagination: #605f5f;
+$color_table_pagination_button: #c4c4c4;
+$color_purple_heart: #5431b7;
+$color_small_purple_heart: #5431b71a;
+$color_indigo: #5762c9;
+$color_small_indigo: #5762c91a;
+$color_linen: #fbeceb;
