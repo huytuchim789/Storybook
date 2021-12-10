@@ -2,10 +2,12 @@ import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import ComponentTextInput from './TextInput';
 import TextInput from '../../component/TextInput';
+import { desc } from './variableDesc';
 
 export default {
     title: 'Component/TextInput',
     component: TextInput,
+    argTypes: desc,
   } as ComponentMeta<typeof TextInput>;
 
 const Template: ComponentStory<typeof TextInput> = (args) => <ComponentTextInput {...args} />;
